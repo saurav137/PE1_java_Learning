@@ -314,8 +314,18 @@ public class Main {
         Scanner sc= new Scanner(System.in);
             while(true) {
                 System.out.println("What do you want me to do ? ");
-                System.out.println("Enter the question number");
-
+                System.out.println("Menu ");
+                System.out.println("To check if given input is palindrome and sum is greater than 25....Press 1");
+                System.out.println("To find if its Tom or jerry.................................... ....Press 2");
+                System.out.println("To checks for each single character letter in\n" +
+                        "the word whether it is a consonant or vowel.....Press 3");
+                System.out.println("To draw a cool pattern from given number ...........................Press 4");
+                System.out.println("To find sum of unspecified number of inputs ........................Press 5");
+                System.out.println("To find details of given character .................................Press 6");
+                System.out.println("To sort and find sum sum of even numbers ...........................Press 7");
+                System.out.println("To reverse the given input  ........................................Press 9");
+                System.out.println("Bored?, come play a game with me             .......................Press 8");
+                System.out.println("To repeat last n characters   of given stri  .......................Press 10");
                 System.out.println("Or press 0 to exit. ");
                 int n = sc.nextInt();
                 if (n == 0)
