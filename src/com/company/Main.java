@@ -314,7 +314,8 @@ public class Main {
         Scanner sc= new Scanner(System.in);
             while(true) {
                 System.out.println("What do you want me to do ? ");
-                System.out.println(" Enter the question number");
+                System.out.println("Enter the question number");
+
                 System.out.println("Or press 0 to exit. ");
                 int n = sc.nextInt();
                 if (n == 0)
@@ -382,10 +383,10 @@ public class Main {
                     System.out.println("");
                 }
 
+}
 
 
 
-            }
 	// write your code here
     }
 
