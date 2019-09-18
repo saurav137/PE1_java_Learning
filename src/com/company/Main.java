@@ -326,7 +326,7 @@ public class Main {
                 System.out.println("To reverse the given input  ........................................Press 9");
                 System.out.println("Bored?, come play a game with me             .......................Press 8");
                 System.out.println("To repeat last n characters   of given stri  .......................Press 10");
-                System.out.println("Or press 0 to exit. ");
+                System.out.println("Or press 0 to exit. \n");
                 int n = sc.nextInt();
                 if (n == 0)
                     break;
