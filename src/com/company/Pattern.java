@@ -1,16 +1,18 @@
 package com.company;
 
-public class Ideone4 {
+public class Pattern {
 
-    public  void solve (int n)
+    public String solve_Pattern(int n)
     {
         // your code goes here
-
+     String ans="";
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
                 System.out.printf("%d ",i);
+                ans+=Integer.toString(i);
             }
         }
+        return  ans;
 
     }
 }

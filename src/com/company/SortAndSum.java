@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class Ideone7 {
+public class SortAndSum {
     public  void solve ()
     {
         // your code goes here
@@ -36,11 +36,11 @@ public class Ideone7 {
         System.out.println("");
         if(sum>15)
         {
-            System.out.printf("You sum is %d,",sum);
+            System.out.printf("Your sum is %d,",sum);
             System.out.println("True");
         }
         else{
-            System.out.printf("You sum is %d, ",sum);
+            System.out.printf("Your sum is %d, ",sum);
             System.out.println("False");
         }
     }

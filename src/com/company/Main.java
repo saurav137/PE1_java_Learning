@@ -1,8 +1,6 @@
 package com.company;
 import java.util.*;
 import java.lang.*;
-import java.io.*;
-import java.util.regex.Pattern;
 
 
 /*
@@ -332,65 +330,70 @@ public class Main {
                     break;
                 if(n==1){
                     System.out.println("You choose 1, Now Enter your  number....");
-                    Long num=sc.nextLong();
-                    Ideone1 obj=new Ideone1();
-                    obj.func(num);
-                    System.out.println("");
+                    String num=sc.next();
+                    PalindromeAndSum obj=new PalindromeAndSum();
+                    String s=obj.func(num);
+                    System.out.println(s);
                 }
                 else if(n==2){
 
                     System.out.println("You choose 2, Now Enter your  number....");
                     int num = sc.nextInt();
-                    Ideone2 obj = new Ideone2();
+                    TomAndJerry obj = new TomAndJerry();
                     obj.solve(num);
                 }
                 else if (n == 3) {
                     System.out.println("You choose 3, Now Enter the word....");
 
                     String s = sc.next();
-                    Ideone3 obj = new Ideone3();
-                    obj.charachter_check(s);
+                    ConsonantAndVowel obj = new ConsonantAndVowel();
+                    obj.ConsonantAndVowel(s);
 
                 }
 
                 else if(n==4){
                     System.out.println("You choose 4, Now Enter your Number to draw a cool pattern..");
                     int num = sc.nextInt();
-                    Ideone4 obj = new Ideone4();
-                    obj.solve(num);
+                    Pattern obj = new Pattern();
+                    obj.solve_Pattern(num);
                 }
                 else if(n==5){
                     System.out.println("You choose 5, Now Enter your string input");
 
-                    Ideone5 obj = new Ideone5();
+                    SumOfRepeatedInput obj = new SumOfRepeatedInput();
                     obj.solve();
                     System.out.println("");
                 }
                 else if(n==6){
-
-                    Ideone6 obj=new Ideone6();
-                    obj.solve();
+                    System.out.println("You choose 6, Now Enter the letter you want to check.");
+                    // Character input
+                    char ch = sc.next().charAt(0);
+                    CharacterCheck obj=new CharacterCheck();
+                    obj.solve(ch);
                     System.out.println("");
                 }
                 else if(n==7){
-                    Ideone7 obj=new Ideone7();
+                    SortAndSum obj=new SortAndSum();
                     obj.solve();
                     System.out.println("");
                 }
                 else if(n==8){
-                    Ideone8 obj=new Ideone8();
+                    Game obj=new Game();
                     obj.solve();
                     System.out.println("");
                 }
                 else if(n==9){
-                    Ideone9 obj=new Ideone9();
+                    ReverseString obj=new ReverseString();
                     obj.solve();
                     System.out.println("");
                 }
                 else if(n==10){
-                    Ideone10 obj=new Ideone10();
+                    NthStringRepeat obj=new NthStringRepeat();
                     obj.solve();
                     System.out.println("");
+                }
+                else{
+                    System.out.println("Sorry, I am not programmed for values greater than 10");
                 }
 
 }

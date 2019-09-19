@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Ideone5 {
+public class SumOfRepeatedInput {
     public void solve() {
         Scanner sc = new Scanner(System.in);
         int sum = 0;

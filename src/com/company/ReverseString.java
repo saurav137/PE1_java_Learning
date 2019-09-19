@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Ideone9 {
+public class ReverseString {
     public void solve ()
     {
         // your code goes here

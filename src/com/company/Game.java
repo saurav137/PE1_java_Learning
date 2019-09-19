@@ -3,7 +3,7 @@ package com.company;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Ideone8 {
+public class Game {
     public static void solve() {
         // write your code here
         System.out.println("You choose 8, Now the game begins....");

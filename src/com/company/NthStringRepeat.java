@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Ideone10 {
+public class NthStringRepeat {
     public void solve ()
     {
         // your code goes here
